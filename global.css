@@ -1,0 +1,18 @@
+h1 {
+font-family: Arial,Helvetica,sans-serif;
+text-align: center;
+color:darkGrey;
+}
+
+div {
+font-family: Arial,Helvetica,sans-serif;
+color:darkBlue;
+}
+
+div.box {
+border-style: solid;
+color:darkRed;
+font-family:"Trebuchet MS",Helvetica,sans-serif;
+text-align: center;
+}
+

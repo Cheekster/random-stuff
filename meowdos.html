@@ -1,0 +1,25 @@
+<head>
+<title id="t">Searching...</title>
+<style>
+div {
+font-family: "Lucida Console",Monaco,monospace;
+color:lightGreen;
+}
+</style>
+<body bgcolor=000000>
+<div id="console">
+C:/>
+</div>
+<script>
+setInterval(Meow,4000);
+var a = document.getElementById("console");
+var t = document.getElementById("t");
+
+function Meow() {
+t.innerHTML = "Searching..."
+a.innerHTML += "newdos search MEOW.COM<br>Searching MEOW.COM...<br>This will take a while<br><br><br>";
+setTimeout(function() {a.innerHTML +="Unable to find MEOW.COM<br><br>C:/>";
+t.innerHTML = "Ready!";},3000);
+}
+</script>
+</body>
