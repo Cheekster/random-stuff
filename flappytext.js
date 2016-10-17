@@ -8,11 +8,16 @@ else {
 GemO();
 }
 }
-function DoNotFlap() {
+function DoNoFlap() {
 var f = Math.floor((Math.random * 2)+1);
 if (f == 1) {
 document.getElementById("status").innerHTML = "You not flapped";
 } else {
 GemO();
 }
+}
+
+function GemO() {
+  document.getElementById("gameover").innerHTML = "Gaem over duh!";
+  score = 0;
 }
