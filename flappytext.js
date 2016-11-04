@@ -18,6 +18,7 @@ GemO();
 }
 
 function GemO() {
-  document.getElementById("gameover").innerHTML = "Gaem over duh!";
+  document.getElementById("status").innerHTML = "Gaem over duh!";
+  alert("Game Over! Score : "+score);
   score = 0;
 }
