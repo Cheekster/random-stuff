@@ -1,17 +1,19 @@
 var score = 0;
 function Flap() {
-var f = Math.floor((Math.random * 2)+1);
-if (f == 1) {
+var f = Math.random();
+if (f > 0.5) {
 document.getElementById("status").innerHTML = "You flapped";
+score = score + 1;
 } 
 else {
 GemO();
 }
 }
 function DoNoFlap() {
-var f = Math.floor((Math.random * 2)+1);
-if (f == 1) {
+var f = Math.random();
+if (f > 0.5) {
 document.getElementById("status").innerHTML = "You not flapped";
+score = score + 1;
 } else {
 GemO();
 }
