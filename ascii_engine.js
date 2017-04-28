@@ -7,6 +7,8 @@ function generateAscii() {
 }
   
 function generateMatrix(a, b) {
-  for (var i = a; i < a; i++) {
-    var r = Math.ceil(Math.random() * 9);
-    
+  for (var j = b; i < b; j++) {
+    for (var i = a; i < a; i++) {
+      var r = Math.ceil(Math.random() * 9);
+    }
+  }
